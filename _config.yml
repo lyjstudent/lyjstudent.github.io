@@ -1,29 +1,29 @@
 # Site settings
-title: LYJ Student
-SEOTitle: LYJ Student - 记录日子
+title: BY Blog
+SEOTitle: 柏荧的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
-email: lyjstudent@gmail.com(暂无)
-description: "中西融合, 即学即会, 从此不再辛苦背单词(记录日子)"
-keyword: "lyj,lyjstudent,记录"
-url: "https://lyjstudent.github.io"          # your host, for absolute URL
+email: qiubaiying@gmail.com
+description: "Every failure is leading towards success."
+keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
+url: "http://qiubaiying.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/lyjstudent/lyjstudent.github.io.git" # you code repository
+github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "谁终将声震人间，必长久深自缄默；谁终将点燃闪电，必长久如云漂泊；我的时代还没有到来，有的人死后方生。——尼采"
-sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Goals determine what you going to be!"
+sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-# zhihu_username:     qiubaiying
-# github_username:    qiubaiying
-# facebook_username:  baiying.qiu.7
-# jianshu_username:   e71990ada2fd
-# twitter_username:   qiubaiying
+zhihu_username:     qiubaiying
+github_username:    qiubaiying
+facebook_username:  baiying.qiu.7
+jianshu_username:   e71990ada2fd
+#twitter_username:   qiubaiying
 
 
 
@@ -62,23 +62,23 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 618b5cc396d53bd17ad2                            #生成的clientID
-  clientSecret: 44211db9be2945db9a78e6872fcb4058b0a80ab8    #生成的clientSecret
-  repo: lyjstudent.github.io    #仓库名称
-  owner: lyjstudent    #github用户名
-  admin: lyjstudent
+  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  repo: qiubaiying.github.io    #仓库名称
+  owner: qiubaiying    #github用户名
+  admin: qiubaiying
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
 
 # Analytics settings
- #Baidu Analytics
- ba_track_id: 2de67f7d1e9ceaced8d004df2f28e039
+# Baidu Analytics
+ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -96,16 +96,19 @@ service-worker: true
 
 
 
-# 友情链接，请尽量不要删除，谢谢！
+# Friends
 friends: [
     {
-        title: "星球国际语",
-        href: "https://globien.gitee.io"
+        title: "WY",
+        href: "http://zhengwuyang.com"
     },{
-        title: "星球语互动社区",
-        href: "https://tieba.baidu.com/f?kw=%E6%A0%BC%E7%BD%97%E6%AF%94%E8%A8%80&fr=home"
+        title: "简书·BY",
+        href: "http://www.jianshu.com/u/e71990ada2fd"
     },{
-        title: "知乎：人造国际语",
-        href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
     }
 ]
