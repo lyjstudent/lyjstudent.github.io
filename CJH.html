@@ -1,7 +1,7 @@
----
+﻿---
 layout: page
-title: "Resources"
-description: "学习三叶语超级简单(特此说明：博客正在修改中，以下为原内容)"
+title: ""
+description: "(特此说明：博客正在修改中，以下为原内容)"
 header-img: "img/post-bg-rwd.jpg"
 ---
 
@@ -86,7 +86,7 @@ header-img: "img/post-bg-rwd.jpg"
 
     <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
 
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/lyjstudent">Github·LYJ</a>.</p>
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
 
     <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
 
@@ -100,8 +100,7 @@ header-img: "img/post-bg-rwd.jpg"
     </ul>
 </div> -->
 <!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
+<script type="text/javascript">// get nodes
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
     var $select = document.querySelector("select");
@@ -110,15 +109,15 @@ header-img: "img/post-bg-rwd.jpg"
     window.addEventListener('hashchange', _render);
 
     // handle render
-    function _render() {
+    function _render(){
         var _hash = window.location.hash;
         // en
-        if (_hash == "#en") {
+        if(_hash == "#en"){
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $zh.style.display = "none";
-            // zh by default
-        } else {
+        // zh by default
+        }else{
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
             $zh.style.display = "block";
@@ -127,17 +126,16 @@ header-img: "img/post-bg-rwd.jpg"
     }
 
     // handle select change
-    function onLanChange(index) {
-        if (index == 0) {
+    function onLanChange(index){
+        if(index == 0){
             window.location.hash = "#zh"
-        } else {
+        }else{
             window.location.hash = "#en"
         }
     }
 
     // init
-    _render();
-</script>
+    _render();</script>
 
 
 <!-- Gitalk 评论 start  -->
