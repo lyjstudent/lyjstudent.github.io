@@ -1,4 +1,24 @@
-﻿
+﻿---
+layout: default
+description: "你来到了没有知识的荒原 🙊"
+header-img: "img/404-bg.jpg"
+permalink: /404.html
+---
+
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="site-heading" id="tag-heading">
+					<h1>404</h1>
+					<span class="subheading">{{ page.description }}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
 
 <!-- Language Selector -->
 <!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
@@ -52,7 +72,8 @@
 <!-- <div class="en post-container">
     <blockquote><p>Yet another iOS Developer. <br>
     Yet another Life-long Student.</p></blockquote>
-
+    
+     <p>In the article being changed.</p>
     <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
 
     <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/lyjstudent">Github·LYJ</a>.</p>
